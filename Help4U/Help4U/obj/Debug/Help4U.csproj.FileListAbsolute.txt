@@ -1,0 +1,14 @@
+C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\bin\Debug\Help4U.exe.config
+C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\bin\Debug\Help4U.exe
+C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\bin\Debug\Help4U.pdb
+C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\bin\Debug\Guna.UI.dll
+C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\bin\Debug\Guna.UI2.dll
+C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.csproj.AssemblyReference.cache
+C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.csproj.SuggestedBindingRedirects.cache
+C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.Form1.resources
+C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.Properties.Resources.resources
+C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.csproj.GenerateResource.cache
+C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.csproj.CoreCompileInputs.cache
+C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.csproj.CopyComplete
+C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.exe
+C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.pdb
