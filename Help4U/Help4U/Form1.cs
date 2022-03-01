@@ -17,29 +17,14 @@ namespace Help4U
             InitializeComponent();
         }
 
-        private void guna2Button1_Click(object sender, EventArgs e)
+        private void guna2Button2_Click_1(object sender, EventArgs e)
         {
-
+            guna2Panel1.Visible = true;
         }
 
-        private void guna2Button2_Click(object sender, EventArgs e)
+        private void guna2Button3_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void guna2PictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2TextBox2_TextChanged(object sender, EventArgs e)
-        {
-
+            guna2Panel1.Visible = false;
         }
     }
 }
