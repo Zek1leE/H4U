@@ -43,12 +43,12 @@
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.label2 = new System.Windows.Forms.Label();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2TextBox6 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox5 = new Guna.UI2.WinForms.Guna2TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             this.guna2Panel1.SuspendLayout();
@@ -165,10 +165,12 @@
             // guna2PictureBox2
             // 
             this.guna2PictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox2.Image")));
             this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(28, 12);
+            this.guna2PictureBox2.Location = new System.Drawing.Point(79, 0);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(300, 200);
+            this.guna2PictureBox2.Size = new System.Drawing.Size(196, 200);
+            this.guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox2.TabIndex = 7;
             this.guna2PictureBox2.TabStop = false;
             this.guna2PictureBox2.UseTransparentBackground = true;
@@ -187,7 +189,7 @@
             this.guna2Panel1.Controls.Add(this.guna2TextBox2);
             this.guna2Panel1.Controls.Add(this.label1);
             this.guna2Panel1.Controls.Add(this.guna2ToggleSwitch1);
-            this.guna2Panel1.Location = new System.Drawing.Point(46, 224);
+            this.guna2Panel1.Location = new System.Drawing.Point(46, 183);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(271, 399);
             this.guna2Panel1.TabIndex = 8;
@@ -248,29 +250,10 @@
             this.guna2Panel2.Controls.Add(this.guna2Button1);
             this.guna2Panel2.Controls.Add(this.guna2TextBox4);
             this.guna2Panel2.Controls.Add(this.guna2Button2);
-            this.guna2Panel2.Location = new System.Drawing.Point(46, 224);
+            this.guna2Panel2.Location = new System.Drawing.Point(46, 186);
             this.guna2Panel2.Name = "guna2Panel2";
             this.guna2Panel2.Size = new System.Drawing.Size(271, 399);
             this.guna2Panel2.TabIndex = 9;
-            // 
-            // guna2Button2
-            // 
-            this.guna2Button2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(72)))), ((int)(((byte)(84)))));
-            this.guna2Button2.BorderRadius = 15;
-            this.guna2Button2.BorderThickness = 3;
-            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(98)))), ((int)(((byte)(112)))));
-            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.Location = new System.Drawing.Point(33, 345);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(180, 42);
-            this.guna2Button2.TabIndex = 11;
-            this.guna2Button2.Text = "Login";
-            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click_1);
             // 
             // guna2TextBox6
             // 
@@ -386,6 +369,25 @@
             this.guna2TextBox4.SelectedText = "";
             this.guna2TextBox4.Size = new System.Drawing.Size(265, 47);
             this.guna2TextBox4.TabIndex = 2;
+            // 
+            // guna2Button2
+            // 
+            this.guna2Button2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(72)))), ((int)(((byte)(84)))));
+            this.guna2Button2.BorderRadius = 15;
+            this.guna2Button2.BorderThickness = 3;
+            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(98)))), ((int)(((byte)(112)))));
+            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2Button2.ForeColor = System.Drawing.Color.White;
+            this.guna2Button2.Location = new System.Drawing.Point(33, 345);
+            this.guna2Button2.Name = "guna2Button2";
+            this.guna2Button2.Size = new System.Drawing.Size(180, 42);
+            this.guna2Button2.TabIndex = 11;
+            this.guna2Button2.Text = "Login";
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click_1);
             // 
             // Form1
             // 
