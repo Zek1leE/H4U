@@ -12,3 +12,4 @@ C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.csproj.CoreCo
 C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.csproj.CopyComplete
 C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.exe
 C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.pdb
+C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.Principal.resources

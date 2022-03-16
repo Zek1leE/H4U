@@ -17,14 +17,36 @@ namespace Help4U
             InitializeComponent();
         }
 
-        private void guna2Button2_Click_1(object sender, EventArgs e)
-        {
-            guna2Panel1.Visible = true;
-        }
-
+        // Mimizar Fechar
         private void guna2Button3_Click(object sender, EventArgs e)
         {
-            guna2Panel1.Visible = false;
+            this.WindowState = FormWindowState.Minimized;
         }
+
+        private void guna2Button7_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+        
+
+        // Abrir Insta e Email
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("chrome.exe", "https://www.instagram.com/help4u.604/");
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+            Principal principal = new Principal();
+            principal.Show();
+        }
+
+        
     }
 }
