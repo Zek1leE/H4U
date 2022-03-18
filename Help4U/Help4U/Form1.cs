@@ -47,6 +47,9 @@ namespace Help4U
             principal.Show();
         }
 
-        
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            guna2TextBox2.PasswordChar = '*';
+        }
     }
 }
