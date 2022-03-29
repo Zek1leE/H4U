@@ -32,7 +32,7 @@ namespace Help4U
         // Abrir Insta e Email
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("chrome.exe", "https://www.instagram.com/help4u.604/");
+            System.Diagnostics.Process.Start("chrome.exe", "https://www.instagram.com/help4u.official/");
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)
@@ -45,6 +45,7 @@ namespace Help4U
         {
             Principal principal = new Principal();
             principal.Show();
+            this.Visible = false;
         }
 
         private void Form1_Load(object sender, EventArgs e)

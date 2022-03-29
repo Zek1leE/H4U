@@ -17,14 +17,10 @@ namespace Help4U
             InitializeComponent();
         }
 
-        private void guna2Button6_Click(object sender, EventArgs e)
+        private void guna2CirclePictureBox2_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void Principal_Load(object sender, EventArgs e)
-        {
-
+            perfil perfil = new perfil();
+            perfil.Show();
         }
     }
 }
