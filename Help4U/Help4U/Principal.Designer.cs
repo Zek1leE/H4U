@@ -259,10 +259,10 @@
             // 
             this.guna2CirclePictureBox2.Image = global::Help4U.Properties.Resources.H4U_logo;
             this.guna2CirclePictureBox2.ImageRotate = 0F;
-            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(7, 5);
+            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(5, 8);
             this.guna2CirclePictureBox2.Name = "guna2CirclePictureBox2";
             this.guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox2.Size = new System.Drawing.Size(45, 45);
+            this.guna2CirclePictureBox2.Size = new System.Drawing.Size(43, 39);
             this.guna2CirclePictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2CirclePictureBox2.TabIndex = 20;
             this.guna2CirclePictureBox2.TabStop = false;
