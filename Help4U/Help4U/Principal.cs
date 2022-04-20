@@ -16,11 +16,13 @@ namespace Help4U
         {
             InitializeComponent();
         }
-
+        
         private void guna2CirclePictureBox2_Click(object sender, EventArgs e)
         {
             perfil perfil = new perfil();
             perfil.Show();
         }
+
+      
     }
 }
