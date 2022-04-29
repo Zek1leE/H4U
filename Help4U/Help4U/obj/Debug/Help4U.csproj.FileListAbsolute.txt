@@ -5,7 +5,6 @@ C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\bin\Debug\Guna.UI.dll
 C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\bin\Debug\Guna.UI2.dll
 C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.csproj.AssemblyReference.cache
 C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.csproj.SuggestedBindingRedirects.cache
-C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.Form1.resources
 C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.Properties.Resources.resources
 C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.csproj.GenerateResource.cache
 C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.csproj.CoreCompileInputs.cache
@@ -14,3 +13,7 @@ C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.exe
 C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.pdb
 C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.Principal.resources
 C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.perfil.resources
+C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.Login.resources
+C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.Conta_Config.resources
+C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.Perfil_Config.resources
+C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.perfil_Senha.resources

@@ -21,6 +21,7 @@ namespace Help4U
         {
             perfil perfil = new perfil();
             perfil.Show();
+            this.Visible = false;
         }
 
       
