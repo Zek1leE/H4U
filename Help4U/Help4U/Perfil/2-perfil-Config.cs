@@ -17,19 +17,23 @@ namespace Help4U
             InitializeComponent();
         }
 
-        private void Perfil_Config_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2CircleButton1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void guna2Button1_Click(object sender, EventArgs e)
         {
            panel1.Visible = false;
+            panel3.Visible = true;
+            panel4.Visible = false;
+        }
+
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+            panel3.Visible = false;
+            panel1.Visible = true;
+            panel4.Visible = true;
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
