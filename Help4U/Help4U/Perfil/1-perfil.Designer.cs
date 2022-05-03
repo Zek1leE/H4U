@@ -228,6 +228,7 @@
             this.Name = "perfil";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "perfil";
+            this.Load += new System.EventHandler(this.perfil_Load);
             this.groupBox3.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

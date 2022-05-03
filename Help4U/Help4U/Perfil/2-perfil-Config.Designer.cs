@@ -59,11 +59,11 @@
             this.label16 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
+            this.label17 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -240,7 +240,7 @@
             this.panel1.Controls.Add(this.label6);
             this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.label7);
-            this.panel1.Location = new System.Drawing.Point(7, 195);
+            this.panel1.Location = new System.Drawing.Point(10, 195);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(557, 264);
             this.panel1.TabIndex = 70;
@@ -279,6 +279,7 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.label17);
             this.panel2.Controls.Add(this.comboBox3);
             this.panel2.Controls.Add(this.comboBox2);
             this.panel2.Controls.Add(this.comboBox1);
@@ -291,7 +292,6 @@
             this.panel2.Controls.Add(this.label16);
             this.panel2.Controls.Add(this.label18);
             this.panel2.Controls.Add(this.label19);
-            this.panel2.Controls.Add(this.label22);
             this.panel2.Location = new System.Drawing.Point(10, 193);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(557, 264);
@@ -341,7 +341,8 @@
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "Masculino",
-            "Femenino"});
+            "Femenino",
+            "Outro"});
             this.comboBox1.Location = new System.Drawing.Point(272, 125);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 24);
@@ -349,6 +350,8 @@
             // 
             // guna2TextBox2
             // 
+            this.guna2TextBox2.AutoRoundedCorners = true;
+            this.guna2TextBox2.BorderRadius = 9;
             this.guna2TextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2TextBox2.DefaultText = "";
             this.guna2TextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -356,7 +359,7 @@
             this.guna2TextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2TextBox2.Font = new System.Drawing.Font("Segoe UI", 7.8F);
             this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox2.Location = new System.Drawing.Point(412, 79);
             this.guna2TextBox2.Name = "guna2TextBox2";
@@ -368,6 +371,8 @@
             // 
             // guna2TextBox1
             // 
+            this.guna2TextBox1.AutoRoundedCorners = true;
+            this.guna2TextBox1.BorderRadius = 9;
             this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2TextBox1.DefaultText = "";
             this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -375,7 +380,7 @@
             this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 7.8F);
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TextBox1.Location = new System.Drawing.Point(272, 79);
             this.guna2TextBox1.Name = "guna2TextBox1";
@@ -450,16 +455,6 @@
             this.label19.TabIndex = 66;
             this.label19.Text = "País/Região";
             // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(15, 129);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(50, 20);
-            this.label22.TabIndex = 64;
-            this.label22.Text = "Sexo";
-            // 
             // panel3
             // 
             this.panel3.Controls.Add(this.guna2Button4);
@@ -528,6 +523,16 @@
             this.guna2Button5.Text = "Guardar";
             this.guna2Button5.UseTransparentBackground = true;
             // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(15, 129);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(70, 20);
+            this.label17.TabIndex = 72;
+            this.label17.Text = "Genero";
+            // 
             // Perfil_Config
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -583,7 +588,6 @@
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label22;
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox1;
@@ -591,5 +595,6 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
         private System.Windows.Forms.Panel panel4;
         private Guna.UI2.WinForms.Guna2Button guna2Button5;
+        private System.Windows.Forms.Label label17;
     }
 }

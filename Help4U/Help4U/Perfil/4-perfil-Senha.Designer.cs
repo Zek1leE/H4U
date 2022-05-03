@@ -75,6 +75,8 @@
             // 
             // guna2TextBox1
             // 
+            this.guna2TextBox1.AutoRoundedCorners = true;
+            this.guna2TextBox1.BorderRadius = 17;
             this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2TextBox1.DefaultText = "";
             this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -111,6 +113,8 @@
             // 
             // guna2TextBox2
             // 
+            this.guna2TextBox2.AutoRoundedCorners = true;
+            this.guna2TextBox2.BorderRadius = 17;
             this.guna2TextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2TextBox2.DefaultText = "";
             this.guna2TextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -140,6 +144,8 @@
             // 
             // guna2TextBox3
             // 
+            this.guna2TextBox3.AutoRoundedCorners = true;
+            this.guna2TextBox3.BorderRadius = 17;
             this.guna2TextBox3.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2TextBox3.DefaultText = "";
             this.guna2TextBox3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -201,6 +207,7 @@
             this.guna2Button2.TabIndex = 51;
             this.guna2Button2.Text = "Descartar Mudança";
             this.guna2Button2.UseTransparentBackground = true;
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // guna2Button1
             // 
@@ -223,7 +230,7 @@
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(203, 61);
             this.guna2Button1.TabIndex = 52;
-            this.guna2Button1.Text = "Salvar Alteração";
+            this.guna2Button1.Text = "Guardar Alteração";
             this.guna2Button1.UseTransparentBackground = true;
             // 
             // perfil_Senha

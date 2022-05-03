@@ -21,5 +21,14 @@ namespace Help4U
         {
 
         }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            guna2TextBox1.Text = "";
+            guna2TextBox2.Text = "";
+            guna2TextBox3.Text = "";
+        }
+
+       
     }
 }
