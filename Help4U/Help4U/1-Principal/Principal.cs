@@ -24,6 +24,9 @@ namespace Help4U
             this.Visible = false;
         }
 
-      
+        private void guna2Button13_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -54,6 +54,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
     <Compile Include="Perfil\4-perfil-Senha.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,12 +71,6 @@
     </Compile>
     <Compile Include="Perfil\3-conta-Config.Designer.cs">
       <DependentUpon>3-conta-Config.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Login-Principal\Login.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Login-Principal\Login.Designer.cs">
-      <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="Perfil\2-perfil-Config.cs">
       <SubType>Form</SubType>
@@ -84,15 +84,21 @@
     <Compile Include="Perfil\1-perfil.Designer.cs">
       <DependentUpon>1-perfil.cs</DependentUpon>
     </Compile>
-    <Compile Include="Login-Principal\Principal.cs">
+    <Compile Include="1-Principal\Principal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login-Principal\Principal.Designer.cs">
+    <Compile Include="1-Principal\Principal.Designer.cs">
       <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="3-Proc-Perfil\procPerfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="3-Proc-Perfil\procPerfil.Designer.cs">
+      <DependentUpon>procPerfil.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Login-Principal\Login.resx">
+    <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Perfil\3-conta-Config.resx">
@@ -104,7 +110,7 @@
     <EmbeddedResource Include="Perfil\1-perfil.resx">
       <DependentUpon>1-perfil.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Login-Principal\Principal.resx">
+    <EmbeddedResource Include="1-Principal\Principal.resx">
       <DependentUpon>Principal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Perfil\4-perfil-Senha.resx">
@@ -169,6 +175,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="2-Trabalhos\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
