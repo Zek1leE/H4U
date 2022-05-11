@@ -1,6 +1,6 @@
 ﻿namespace Help4U
 {
-    partial class procPerfil
+    partial class top2
     {
         /// <summary>
         /// Required designer variable.
@@ -30,14 +30,14 @@
         {
             this.SuspendLayout();
             // 
-            // procPerfil
+            // top2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(805, 728);
+            this.ClientSize = new System.Drawing.Size(815, 725);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "procPerfil";
-            this.Text = "procPerfil";
+            this.Name = "top2";
+            this.Text = "top2";
             this.ResumeLayout(false);
 
         }

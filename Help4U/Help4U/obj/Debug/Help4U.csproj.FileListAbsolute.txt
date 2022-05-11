@@ -17,3 +17,7 @@ C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.Login.resourc
 C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.Conta_Config.resources
 C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.Perfil_Config.resources
 C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.perfil_Senha.resources
+C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.top1.resources
+C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.top2.resources
+C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.trabalho.resources
+C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.procPerfil.resources

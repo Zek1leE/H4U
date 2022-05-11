@@ -50,9 +50,6 @@ namespace Help4U
             loadform(new perfil_Senha());
         }
 
-        private void perfil_Load(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }
