@@ -36,16 +36,24 @@ namespace Help4U
             this.Visible = false;
         }
 
-        //Tops Categorias
+        //Abas
         private void guna2PictureBox2_Click_1(object sender, EventArgs e)
         {
+            //Top Ranking
             panel3.Visible = false;
             loadform(new top1());
         }
 
-        private void guna2HtmlLabel1_Click(object sender, EventArgs e)
+        private void guna2Button15_Click(object sender, EventArgs e)
         {
-
+            loadform(new trabalho());
         }
+
+        private void guna2Button13_Click(object sender, EventArgs e)
+        {
+            loadform(new procPerfil());
+        }
+
+       
     }
 }

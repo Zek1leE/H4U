@@ -597,9 +597,9 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(166, 3721);
+            this.button2.Location = new System.Drawing.Point(170, 3721);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(16, 18);
+            this.button2.Size = new System.Drawing.Size(16, 43);
             this.button2.TabIndex = 1;
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
@@ -922,7 +922,7 @@
             this.Controls.Add(this.button2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "top1";
-            this.Text = "top1";
+            this.Text = " ";
             this.Load += new System.EventHandler(this.top1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();

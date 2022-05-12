@@ -28,13 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.splitter1 = new System.Windows.Forms.Splitter();
             this.SuspendLayout();
+            // 
+            // splitter1
+            // 
+            this.splitter1.Location = new System.Drawing.Point(0, 0);
+            this.splitter1.Name = "splitter1";
+            this.splitter1.Size = new System.Drawing.Size(3, 728);
+            this.splitter1.TabIndex = 4;
+            this.splitter1.TabStop = false;
             // 
             // procPerfil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(805, 728);
+            this.Controls.Add(this.splitter1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "procPerfil";
             this.Text = "procPerfil";
@@ -43,5 +53,7 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Splitter splitter1;
     }
 }

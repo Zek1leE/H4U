@@ -89,7 +89,7 @@
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(6, 233);
+            this.label1.Location = new System.Drawing.Point(6, 214);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(227, 28);
             this.label1.TabIndex = 75;
@@ -142,7 +142,7 @@
             this.guna2Button18.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(100)))), ((int)(((byte)(110)))));
             this.guna2Button18.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(100)))), ((int)(((byte)(110)))));
             this.guna2Button18.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button18.Image")));
-            this.guna2Button18.Location = new System.Drawing.Point(186, 30);
+            this.guna2Button18.Location = new System.Drawing.Point(193, 13);
             this.guna2Button18.Name = "guna2Button18";
             this.guna2Button18.Size = new System.Drawing.Size(35, 31);
             this.guna2Button18.TabIndex = 16;
@@ -222,12 +222,13 @@
             this.guna2Button13.TabIndex = 23;
             this.guna2Button13.Text = "Procurar Perfil";
             this.guna2Button13.UseTransparentBackground = true;
+            this.guna2Button13.Click += new System.EventHandler(this.guna2Button13_Click);
             // 
             // guna2CirclePictureBox2
             // 
             this.guna2CirclePictureBox2.Image = global::Help4U.Properties.Resources.H4U_logo;
             this.guna2CirclePictureBox2.ImageRotate = 0F;
-            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(48, 67);
+            this.guna2CirclePictureBox2.Location = new System.Drawing.Point(50, 50);
             this.guna2CirclePictureBox2.Name = "guna2CirclePictureBox2";
             this.guna2CirclePictureBox2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CirclePictureBox2.Size = new System.Drawing.Size(149, 150);
@@ -254,12 +255,13 @@
             this.guna2Button15.HoverState.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.guna2Button15.Image = global::Help4U.Properties.Resources.work;
             this.guna2Button15.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button15.Location = new System.Drawing.Point(0, 345);
+            this.guna2Button15.Location = new System.Drawing.Point(0, 364);
             this.guna2Button15.Name = "guna2Button15";
             this.guna2Button15.Size = new System.Drawing.Size(228, 61);
             this.guna2Button15.TabIndex = 21;
             this.guna2Button15.Text = "Trabalhos";
             this.guna2Button15.UseTransparentBackground = true;
+            this.guna2Button15.Click += new System.EventHandler(this.guna2Button15_Click);
             // 
             // guna2Button16
             // 
@@ -279,7 +281,7 @@
             this.guna2Button16.HoverState.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.guna2Button16.Image = global::Help4U.Properties.Resources.home;
             this.guna2Button16.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button16.Location = new System.Drawing.Point(0, 264);
+            this.guna2Button16.Location = new System.Drawing.Point(5, 282);
             this.guna2Button16.Name = "guna2Button16";
             this.guna2Button16.Size = new System.Drawing.Size(226, 61);
             this.guna2Button16.TabIndex = 19;
