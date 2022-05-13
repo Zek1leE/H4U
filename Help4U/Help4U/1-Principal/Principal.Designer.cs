@@ -347,9 +347,9 @@
             this.guna2PictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2PictureBox3.BorderRadius = 5;
             this.guna2PictureBox3.ImageRotate = 0F;
-            this.guna2PictureBox3.Location = new System.Drawing.Point(580, 565);
+            this.guna2PictureBox3.Location = new System.Drawing.Point(570, 565);
             this.guna2PictureBox3.Name = "guna2PictureBox3";
-            this.guna2PictureBox3.Size = new System.Drawing.Size(257, 179);
+            this.guna2PictureBox3.Size = new System.Drawing.Size(263, 182);
             this.guna2PictureBox3.TabIndex = 74;
             this.guna2PictureBox3.TabStop = false;
             // 
@@ -360,7 +360,7 @@
             this.guna2PictureBox5.ImageRotate = 0F;
             this.guna2PictureBox5.Location = new System.Drawing.Point(295, 565);
             this.guna2PictureBox5.Name = "guna2PictureBox5";
-            this.guna2PictureBox5.Size = new System.Drawing.Size(263, 179);
+            this.guna2PictureBox5.Size = new System.Drawing.Size(263, 182);
             this.guna2PictureBox5.TabIndex = 73;
             this.guna2PictureBox5.TabStop = false;
             // 
@@ -370,7 +370,7 @@
             this.guna2PictureBox7.ImageRotate = 0F;
             this.guna2PictureBox7.Location = new System.Drawing.Point(20, 565);
             this.guna2PictureBox7.Name = "guna2PictureBox7";
-            this.guna2PictureBox7.Size = new System.Drawing.Size(253, 179);
+            this.guna2PictureBox7.Size = new System.Drawing.Size(263, 182);
             this.guna2PictureBox7.TabIndex = 72;
             this.guna2PictureBox7.TabStop = false;
             // 
