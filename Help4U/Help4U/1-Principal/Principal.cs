@@ -29,6 +29,7 @@ namespace Help4U
             f.Show();
         }
 
+        //Abas
         private void guna2CirclePictureBox2_Click(object sender, EventArgs e)
         {
             perfil perfil = new perfil();
@@ -36,7 +37,7 @@ namespace Help4U
             this.Visible = false;
         }
 
-        //Abas
+      
         private void guna2PictureBox2_Click_1(object sender, EventArgs e)
         {
             //Top Ranking
@@ -54,6 +55,5 @@ namespace Help4U
             loadform(new procPerfil());
         }
 
-       
     }
 }

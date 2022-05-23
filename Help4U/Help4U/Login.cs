@@ -57,7 +57,6 @@ namespace Help4U
             guna2TextBox2.PasswordChar = '*';
         }
         
-
         //Mover Form
         private void panel1_MouseDown_1(object sender, MouseEventArgs e)
         {
@@ -83,7 +82,6 @@ namespace Help4U
         {
             System.Diagnostics.Process.Start("chrome.exe", " help4u.604@gmail.com");
         }
-
        
-}
+    }
 }

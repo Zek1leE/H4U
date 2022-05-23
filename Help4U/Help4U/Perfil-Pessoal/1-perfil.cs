@@ -50,6 +50,55 @@ namespace Help4U
             loadform(new perfil_Senha());
         }
 
-        
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+            //guna2TextBox1.Enabled = true;
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void perfil_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            guna2TextBox1.Enabled = true;
+            guna2Button2.Visible = true;
+            guna2Button3.Visible = true;
+
+        }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+            guna2TextBox1.Enabled = false;
+            guna2Button2.Visible = false;
+            guna2Button3.Visible = false;
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

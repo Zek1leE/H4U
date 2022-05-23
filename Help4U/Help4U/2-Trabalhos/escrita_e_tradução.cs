@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Help4U
 {
-    public partial class trabalho : Form
+    public partial class escrita_e_tradução : Form
     {
-        public trabalho()
+        public escrita_e_tradução()
         {
             InitializeComponent();
         }
