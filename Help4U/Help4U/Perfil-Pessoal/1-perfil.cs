@@ -40,11 +40,6 @@ namespace Help4U
             loadform(new Conta_Config());
         }
 
-        private void guna2CircleButton2_Click(object sender, EventArgs e)
-        {
-            panel1.Visible=false;
-        }
-
         private void guna2Button13_Click(object sender, EventArgs e)
         {
             loadform(new perfil_Senha());
@@ -53,26 +48,6 @@ namespace Help4U
         private void guna2Button2_Click(object sender, EventArgs e)
         {
             //guna2TextBox1.Enabled = true;
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void perfil_Load(object sender, EventArgs e)
-        {
-            
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)
@@ -91,14 +66,10 @@ namespace Help4U
 
         }
 
-        private void label5_Click(object sender, EventArgs e)
+        private void guna2Button4_Click(object sender, EventArgs e)
         {
-
+            panel1.Visible = false;
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

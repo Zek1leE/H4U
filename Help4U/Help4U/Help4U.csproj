@@ -174,6 +174,30 @@
     <EmbeddedResource Include="2-Trabalhos\1-trabalho.resx">
       <DependentUpon>1-trabalho.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="2-Trabalhos\construção.resx">
+      <DependentUpon>construção.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2-Trabalhos\design.resx">
+      <DependentUpon>design.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2-Trabalhos\escrita_e_tradução.resx">
+      <DependentUpon>escrita_e_tradução.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2-Trabalhos\estilo_de_vida.resx">
+      <DependentUpon>estilo_de_vida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2-Trabalhos\marketing.resx">
+      <DependentUpon>marketing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2-Trabalhos\multimídia.resx">
+      <DependentUpon>multimídia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2-Trabalhos\negócios.resx">
+      <DependentUpon>negócios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2-Trabalhos\tecnologia.resx">
+      <DependentUpon>tecnologia.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="3-Proc-Perfil\procPerfil.resx">
       <DependentUpon>procPerfil.cs</DependentUpon>
     </EmbeddedResource>
