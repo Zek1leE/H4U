@@ -68,5 +68,10 @@ namespace Help4U
         {
             loadform(new tecnologia());
         }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
     }
 }
