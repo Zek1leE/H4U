@@ -43,7 +43,6 @@
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -79,7 +78,6 @@
             this.construçãoToolStripMenuItem.Name = "construçãoToolStripMenuItem";
             this.construçãoToolStripMenuItem.Size = new System.Drawing.Size(108, 27);
             this.construçãoToolStripMenuItem.Text = "Construção";
-            this.construçãoToolStripMenuItem.Click += new System.EventHandler(this.construçãoToolStripMenuItem_Click);
             // 
             // designToolStripMenuItem
             // 
@@ -87,7 +85,6 @@
             this.designToolStripMenuItem.Name = "designToolStripMenuItem";
             this.designToolStripMenuItem.Size = new System.Drawing.Size(69, 27);
             this.designToolStripMenuItem.Text = "Design ";
-            this.designToolStripMenuItem.Click += new System.EventHandler(this.designToolStripMenuItem_Click);
             // 
             // escritaETraduçãoToolStripMenuItem
             // 
@@ -95,7 +92,6 @@
             this.escritaETraduçãoToolStripMenuItem.Name = "escritaETraduçãoToolStripMenuItem";
             this.escritaETraduçãoToolStripMenuItem.Size = new System.Drawing.Size(143, 27);
             this.escritaETraduçãoToolStripMenuItem.Text = "Escrita e tradução";
-            this.escritaETraduçãoToolStripMenuItem.Click += new System.EventHandler(this.escritaETraduçãoToolStripMenuItem_Click);
             // 
             // estiloDeVidaToolStripMenuItem
             // 
@@ -103,7 +99,6 @@
             this.estiloDeVidaToolStripMenuItem.Name = "estiloDeVidaToolStripMenuItem";
             this.estiloDeVidaToolStripMenuItem.Size = new System.Drawing.Size(110, 27);
             this.estiloDeVidaToolStripMenuItem.Text = "Estilo de Vida";
-            this.estiloDeVidaToolStripMenuItem.Click += new System.EventHandler(this.estiloDeVidaToolStripMenuItem_Click);
             // 
             // marketingToolStripMenuItem
             // 
@@ -111,7 +106,6 @@
             this.marketingToolStripMenuItem.Name = "marketingToolStripMenuItem";
             this.marketingToolStripMenuItem.Size = new System.Drawing.Size(85, 27);
             this.marketingToolStripMenuItem.Text = "Marketing";
-            this.marketingToolStripMenuItem.Click += new System.EventHandler(this.marketingToolStripMenuItem_Click);
             // 
             // negóciosToolStripMenuItem
             // 
@@ -119,7 +113,6 @@
             this.negóciosToolStripMenuItem.Name = "negóciosToolStripMenuItem";
             this.negóciosToolStripMenuItem.Size = new System.Drawing.Size(85, 27);
             this.negóciosToolStripMenuItem.Text = "Multimídia";
-            this.negóciosToolStripMenuItem.Click += new System.EventHandler(this.negóciosToolStripMenuItem_Click);
             // 
             // tecnologiaEProgramaçãoToolStripMenuItem
             // 
@@ -127,7 +120,6 @@
             this.tecnologiaEProgramaçãoToolStripMenuItem.Name = "tecnologiaEProgramaçãoToolStripMenuItem";
             this.tecnologiaEProgramaçãoToolStripMenuItem.Size = new System.Drawing.Size(80, 27);
             this.tecnologiaEProgramaçãoToolStripMenuItem.Text = "Negócios";
-            this.tecnologiaEProgramaçãoToolStripMenuItem.Click += new System.EventHandler(this.tecnologiaEProgramaçãoToolStripMenuItem_Click);
             // 
             // trabalhosManuaisToolStripMenuItem
             // 
@@ -136,7 +128,6 @@
             this.trabalhosManuaisToolStripMenuItem.Name = "trabalhosManuaisToolStripMenuItem";
             this.trabalhosManuaisToolStripMenuItem.Size = new System.Drawing.Size(91, 27);
             this.trabalhosManuaisToolStripMenuItem.Text = "Tecnologia";
-            this.trabalhosManuaisToolStripMenuItem.Click += new System.EventHandler(this.trabalhosManuaisToolStripMenuItem_Click);
             // 
             // trabalhosManuaisToolStripMenuItem1
             // 
@@ -207,33 +198,11 @@
             this.panel1.Size = new System.Drawing.Size(1059, 678);
             this.panel1.TabIndex = 21;
             // 
-            // guna2Button4
-            // 
-            this.guna2Button4.Animated = true;
-            this.guna2Button4.AutoRoundedCorners = true;
-            this.guna2Button4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button4.BorderRadius = 16;
-            this.guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(100)))), ((int)(((byte)(110)))));
-            this.guna2Button4.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
-            this.guna2Button4.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.guna2Button4.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(129)))), ((int)(((byte)(137)))));
-            this.guna2Button4.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button4.Image")));
-            this.guna2Button4.Location = new System.Drawing.Point(1024, 52);
-            this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.Size = new System.Drawing.Size(35, 35);
-            this.guna2Button4.TabIndex = 69;
-            this.guna2Button4.UseTransparentBackground = true;
-            // 
             // trabalho
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1060, 775);
-            this.Controls.Add(this.guna2Button4);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.guna2Button18);
             this.Controls.Add(this.guna2TextBox1);
@@ -265,6 +234,5 @@
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
-        public Guna.UI2.WinForms.Guna2Button guna2Button4;
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace Help4U
 {
-    partial class construção
+    partial class maisTrabalho
     {
         /// <summary>
         /// Required designer variable.
@@ -30,14 +30,14 @@
         {
             this.SuspendLayout();
             // 
-            // construção
+            // maisTrabalho
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(961, 628);
+            this.ClientSize = new System.Drawing.Size(1069, 769);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "construção";
-            this.Text = "construção";
+            this.Name = "maisTrabalho";
+            this.Text = "maisTrabalho";
             this.ResumeLayout(false);
 
         }

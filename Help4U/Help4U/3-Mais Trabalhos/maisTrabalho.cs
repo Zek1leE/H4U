@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Help4U
 {
-    public partial class estilo_de_vida : Form
+    public partial class maisTrabalho : Form
     {
-        public estilo_de_vida()
+        public maisTrabalho()
         {
             InitializeComponent();
         }

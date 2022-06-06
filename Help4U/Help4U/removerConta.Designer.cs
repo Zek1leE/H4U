@@ -1,6 +1,6 @@
 ﻿namespace Help4U
 {
-    partial class design
+    partial class removerConta
     {
         /// <summary>
         /// Required designer variable.
@@ -30,14 +30,14 @@
         {
             this.SuspendLayout();
             // 
-            // design
+            // removerConta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(961, 628);
+            this.ClientSize = new System.Drawing.Size(1069, 769);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "design";
-            this.Text = "design";
+            this.Name = "removerConta";
+            this.Text = "removerConta";
             this.ResumeLayout(false);
 
         }

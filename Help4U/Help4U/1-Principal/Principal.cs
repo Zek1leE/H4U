@@ -55,6 +55,9 @@ namespace Help4U
             loadform(new procPerfil());
         }
 
-       
+        private void guna2Button9_Click(object sender, EventArgs e)
+        {
+            loadform(new maisTrabalho());
+        }
     }
 }

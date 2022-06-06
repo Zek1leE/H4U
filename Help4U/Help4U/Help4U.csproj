@@ -61,53 +61,17 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="2-Trabalhos\construção.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2-Trabalhos\construção.Designer.cs">
-      <DependentUpon>construção.cs</DependentUpon>
-    </Compile>
-    <Compile Include="2-Trabalhos\design.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2-Trabalhos\design.Designer.cs">
-      <DependentUpon>design.cs</DependentUpon>
-    </Compile>
-    <Compile Include="2-Trabalhos\escrita_e_tradução.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2-Trabalhos\escrita_e_tradução.Designer.cs">
-      <DependentUpon>escrita_e_tradução.cs</DependentUpon>
-    </Compile>
-    <Compile Include="2-Trabalhos\estilo_de_vida.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2-Trabalhos\estilo_de_vida.Designer.cs">
-      <DependentUpon>estilo_de_vida.cs</DependentUpon>
-    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="2-Trabalhos\marketing.cs">
+    <Compile Include="3-Mais Trabalhos\maisTrabalho.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="2-Trabalhos\marketing.Designer.cs">
-      <DependentUpon>marketing.cs</DependentUpon>
-    </Compile>
-    <Compile Include="2-Trabalhos\multimídia.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2-Trabalhos\multimídia.Designer.cs">
-      <DependentUpon>multimídia.cs</DependentUpon>
-    </Compile>
-    <Compile Include="2-Trabalhos\negócios.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="2-Trabalhos\negócios.Designer.cs">
-      <DependentUpon>negócios.cs</DependentUpon>
+    <Compile Include="3-Mais Trabalhos\maisTrabalho.Designer.cs">
+      <DependentUpon>maisTrabalho.cs</DependentUpon>
     </Compile>
     <Compile Include="Perfil-Pessoal\4-perfil-Senha.cs">
       <SubType>Form</SubType>
@@ -139,19 +103,19 @@
     <Compile Include="1-Principal\Principal.Designer.cs">
       <DependentUpon>Principal.cs</DependentUpon>
     </Compile>
-    <Compile Include="3-Proc-Perfil\procPerfil.cs">
+    <Compile Include="4-Proc-Perfil\procPerfil.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="3-Proc-Perfil\procPerfil.Designer.cs">
+    <Compile Include="4-Proc-Perfil\procPerfil.Designer.cs">
       <DependentUpon>procPerfil.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="2-Trabalhos\tecnologia.cs">
+    <Compile Include="removerConta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="2-Trabalhos\tecnologia.Designer.cs">
-      <DependentUpon>tecnologia.cs</DependentUpon>
+    <Compile Include="removerConta.Designer.cs">
+      <DependentUpon>removerConta.cs</DependentUpon>
     </Compile>
     <Compile Include="Tops\top1.cs">
       <SubType>Form</SubType>
@@ -174,31 +138,10 @@
     <EmbeddedResource Include="2-Trabalhos\1-trabalho.resx">
       <DependentUpon>1-trabalho.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="2-Trabalhos\construção.resx">
-      <DependentUpon>construção.cs</DependentUpon>
+    <EmbeddedResource Include="3-Mais Trabalhos\maisTrabalho.resx">
+      <DependentUpon>maisTrabalho.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="2-Trabalhos\design.resx">
-      <DependentUpon>design.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2-Trabalhos\escrita_e_tradução.resx">
-      <DependentUpon>escrita_e_tradução.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2-Trabalhos\estilo_de_vida.resx">
-      <DependentUpon>estilo_de_vida.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2-Trabalhos\marketing.resx">
-      <DependentUpon>marketing.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2-Trabalhos\multimídia.resx">
-      <DependentUpon>multimídia.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2-Trabalhos\negócios.resx">
-      <DependentUpon>negócios.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="2-Trabalhos\tecnologia.resx">
-      <DependentUpon>tecnologia.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="3-Proc-Perfil\procPerfil.resx">
+    <EmbeddedResource Include="4-Proc-Perfil\procPerfil.resx">
       <DependentUpon>procPerfil.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
@@ -229,6 +172,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="removerConta.resx">
+      <DependentUpon>removerConta.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Tops\top1.resx">
       <DependentUpon>top1.cs</DependentUpon>
     </EmbeddedResource>

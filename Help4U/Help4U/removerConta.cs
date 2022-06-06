@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Help4U
 {
-    public partial class escrita_e_tradução : Form
+    public partial class removerConta : Form
     {
-        public escrita_e_tradução()
+        public removerConta()
         {
             InitializeComponent();
         }
