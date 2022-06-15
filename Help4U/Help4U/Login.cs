@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace Help4U
 {
@@ -82,6 +83,6 @@ namespace Help4U
         {
             System.Diagnostics.Process.Start("chrome.exe", " help4u.604@gmail.com");
         }
-       
+
     }
 }

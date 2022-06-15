@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace Help4U
 {
@@ -15,6 +16,11 @@ namespace Help4U
         public removerConta()
         {
             InitializeComponent();
+        }
+
+        private void removerConta_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

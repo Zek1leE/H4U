@@ -69,7 +69,6 @@
             this.menuStrip1.Size = new System.Drawing.Size(1060, 31);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
-            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // construçãoToolStripMenuItem
             // 
@@ -177,10 +176,11 @@
             this.guna2TextBox1.Location = new System.Drawing.Point(222, 42);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
-            this.guna2TextBox1.PlaceholderText = "";
+            this.guna2TextBox1.PlaceholderText = "Procure um trabalho ";
             this.guna2TextBox1.SelectedText = "";
             this.guna2TextBox1.Size = new System.Drawing.Size(589, 31);
             this.guna2TextBox1.TabIndex = 19;
+            this.guna2TextBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.guna2TextBox1_KeyPress);
             // 
             // label1
             // 

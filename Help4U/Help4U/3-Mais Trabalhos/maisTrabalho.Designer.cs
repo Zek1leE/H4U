@@ -38,6 +38,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "maisTrabalho";
             this.Text = "maisTrabalho";
+            this.Load += new System.EventHandler(this.maisTrabalho_Load);
             this.ResumeLayout(false);
 
         }

@@ -461,9 +461,11 @@
             this.guna2Button2.Text = "Guardar";
             this.guna2Button2.UseTransparentBackground = true;
             this.guna2Button2.Visible = false;
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // guna2TextBox1
             // 
+            this.guna2TextBox1.Animated = true;
             this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2TextBox1.DefaultText = "";
             this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -477,7 +479,8 @@
             this.guna2TextBox1.Location = new System.Drawing.Point(34, 255);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
-            this.guna2TextBox1.PlaceholderText = "Devera fazer uma breve descrição pessoas e das suas capacidades profissionais";
+            this.guna2TextBox1.PlaceholderText = "Exemplo:  \"Sou o João, tenho 20 anos, trabalhador e lincenciado em engenharia civ" +
+    "il...\"";
             this.guna2TextBox1.SelectedText = "";
             this.guna2TextBox1.Size = new System.Drawing.Size(678, 146);
             this.guna2TextBox1.TabIndex = 42;
@@ -514,7 +517,6 @@
             // 
             // guna2RatingStar1
             // 
-            this.guna2RatingStar1.Enabled = false;
             this.guna2RatingStar1.Location = new System.Drawing.Point(210, 84);
             this.guna2RatingStar1.Name = "guna2RatingStar1";
             this.guna2RatingStar1.RatingColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));

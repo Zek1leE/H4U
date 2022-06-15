@@ -58,10 +58,10 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(12, 68);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(544, 40);
+            this.label2.Size = new System.Drawing.Size(541, 40);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Para sua segurança, é altamente recomendável que escolha uma senha exclusiva que " +
-    "não seja usada em nenhuma outra conta online.";
+            this.label2.Text = "Para a sua segurança, é altamente recomendável que escolha uma senha exclusiva qu" +
+    "e não seja usada em nenhuma outra conta ";
             // 
             // label3
             // 
@@ -180,9 +180,9 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(265, 237);
             this.label7.TabIndex = 10;
-            this.label7.Text = "Sua senha não deve ser igual às últimas 5 senhas usadas\r\n\r\nSua senha deve ter mai" +
-    "s de 7 caracteres\r\n\r\nSua senha deve ter pelo menos 1 número\r\n\r\nSua senha não dev" +
-    "e conter espaço(s)";
+            this.label7.Text = "A sua senha não deve ser igual às últimas 5 senhas usadas\r\n\r\nEsta deverá conter  " +
+    "7 carácteres\r\n\r\nA sua senha deve ter pelo menos 1 número\r\n\r\nA senha não deve con" +
+    "ter espaço(s)";
             // 
             // guna2Button2
             // 
@@ -232,6 +232,7 @@
             this.guna2Button1.TabIndex = 52;
             this.guna2Button1.Text = "Guardar Alteração";
             this.guna2Button1.UseTransparentBackground = true;
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // perfil_Senha
             // 
@@ -254,7 +255,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "perfil_Senha";
             this.Text = "perfil_Senha";
-            this.Load += new System.EventHandler(this.perfil_Senha_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

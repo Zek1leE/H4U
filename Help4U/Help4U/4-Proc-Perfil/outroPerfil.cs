@@ -11,16 +11,13 @@ using MySql.Data.MySqlClient;
 
 namespace Help4U
 {
-    public partial class maisTrabalho : Form
+    public partial class outroPerfil : Form
     {
-        public maisTrabalho()
+        public outroPerfil()
         {
             InitializeComponent();
         }
 
-        private void maisTrabalho_Load(object sender, EventArgs e)
-        {
-
-        }
+       
     }
 }

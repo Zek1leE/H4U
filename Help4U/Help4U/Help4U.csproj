@@ -40,6 +40,7 @@
       <HintPath>..\packages\Guna.UI2.WinForms.2.0.3.2\lib\net40\Guna.UI2.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MySql.Data, Version=8.0.29.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
@@ -61,6 +62,12 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="1-Principal\adm_Trabalho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="1-Principal\adm_Trabalho.Designer.cs">
+      <DependentUpon>adm_Trabalho.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +79,12 @@
     </Compile>
     <Compile Include="3-Mais Trabalhos\maisTrabalho.Designer.cs">
       <DependentUpon>maisTrabalho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="4-Proc-Perfil\outroPerfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="4-Proc-Perfil\outroPerfil.Designer.cs">
+      <DependentUpon>outroPerfil.cs</DependentUpon>
     </Compile>
     <Compile Include="Perfil-Pessoal\4-perfil-Senha.cs">
       <SubType>Form</SubType>
@@ -111,10 +124,10 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="removerConta.cs">
+    <Compile Include="1-Principal\removerConta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="removerConta.Designer.cs">
+    <Compile Include="1-Principal\removerConta.Designer.cs">
       <DependentUpon>removerConta.cs</DependentUpon>
     </Compile>
     <Compile Include="Tops\top1.cs">
@@ -141,8 +154,14 @@
     <EmbeddedResource Include="3-Mais Trabalhos\maisTrabalho.resx">
       <DependentUpon>maisTrabalho.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="4-Proc-Perfil\outroPerfil.resx">
+      <DependentUpon>outroPerfil.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="4-Proc-Perfil\procPerfil.resx">
       <DependentUpon>procPerfil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="1-Principal\adm_Trabalho.resx">
+      <DependentUpon>adm_Trabalho.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -172,7 +191,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="removerConta.resx">
+    <EmbeddedResource Include="1-Principal\removerConta.resx">
       <DependentUpon>removerConta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tops\top1.resx">
@@ -231,6 +250,8 @@
   <ItemGroup>
     <None Include="Resources\home.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
