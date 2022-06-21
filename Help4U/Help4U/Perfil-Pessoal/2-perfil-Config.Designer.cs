@@ -121,6 +121,7 @@
             this.guna2CircleButton1.Size = new System.Drawing.Size(37, 33);
             this.guna2CircleButton1.TabIndex = 49;
             this.guna2CircleButton1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2CircleButton1.Click += new System.EventHandler(this.guna2CircleButton1_Click);
             // 
             // label1
             // 

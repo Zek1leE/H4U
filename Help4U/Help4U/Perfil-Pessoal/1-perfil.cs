@@ -77,5 +77,17 @@ namespace Help4U
 
             guna2TextBox1.Enabled = false;
         }
+
+        private void guna2CircleButton1_Click(object sender, EventArgs e)
+        {
+            Principal principal = new Principal();
+            principal.Show();
+            this.Visible = false;
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

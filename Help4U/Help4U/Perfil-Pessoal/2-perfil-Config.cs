@@ -115,6 +115,13 @@ namespace Help4U
                 e.Handled = true;
             }
         }
+
+        private void guna2CircleButton1_Click(object sender, EventArgs e)
+        {
+            perfil perfil = new perfil();
+            perfil.Show();
+            this.Close();
+        }
     }
 }
 

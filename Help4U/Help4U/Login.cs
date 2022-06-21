@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net.Mail;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -27,12 +28,6 @@ namespace Help4U
             this.WindowState = FormWindowState.Minimized;
         }
 
-        //Fechar
-        private void guna2Button7_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-        
         // Abrir Insta 
        private void guna2Button2_Click_1(object sender, EventArgs e)
         {
@@ -42,20 +37,42 @@ namespace Help4U
         //Abrir Email
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-
+            // help4u.604@gmail.com  
         }
 
         //Abrir Principal
         private void guna2Button4_Click_1(object sender, EventArgs e)
         {
-            Principal principal = new Principal();
-            principal.Show();
-            this.Visible = false;
+            if (guna2TextBox1.Text.Length == 0 | guna2TextBox2.Text.Length == 0)
+            {
+
+                label1.Visible = true;
+            }
+
+            string connectionString = "datasource=127.0.0.1;port=3306;username=root;password=;database=H4u;";
+            string query = "Select * from user where Email = '" + guna2TextBox1.Text.Trim() + "' and Password = '" + guna2TextBox2.Text.Trim() + "'";
+
+            MySqlDataAdapter sda = new MySqlDataAdapter(query, connectionString);
+            DataTable dataTable = new DataTable();
+            sda.Fill(dataTable);
+
+            if (dataTable.Rows.Count >= 1)
+            {
+                Principal principal = new Principal();
+                principal.Show();
+                this.Visible = false;
+            }
+            else
+            {
+                label1.Visible = true;
+            }
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            guna2TextBox2.PasswordChar = '*';
+            guna2TextBox2.PasswordChar = '●';
+
         }
         
         //Mover Form
@@ -79,10 +96,14 @@ namespace Help4U
             mover = false;
         }
 
-        private void guna2Button1_Click_1(object sender, EventArgs e)
+        private void guna2TextBox1_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("chrome.exe", " help4u.604@gmail.com");
+            label1.Visible = false;
         }
 
+        private void guna2TextBox2_Click(object sender, EventArgs e)
+        {
+            label1.Visible = false;
+        }
     }
 }

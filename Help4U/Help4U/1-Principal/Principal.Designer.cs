@@ -103,13 +103,12 @@
             this.guna2Button4.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(100)))), ((int)(((byte)(110)))));
             this.guna2Button4.HoverState.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.guna2Button4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button4.Location = new System.Drawing.Point(10, 538);
+            this.guna2Button4.Location = new System.Drawing.Point(3, 528);
             this.guna2Button4.Name = "guna2Button4";
             this.guna2Button4.Size = new System.Drawing.Size(228, 61);
             this.guna2Button4.TabIndex = 78;
             this.guna2Button4.Text = "Trabalhos";
             this.guna2Button4.UseTransparentBackground = true;
-            this.guna2Button4.Visible = false;
             // 
             // guna2Button3
             // 
@@ -135,7 +134,6 @@
             this.guna2Button3.TabIndex = 77;
             this.guna2Button3.Text = "Historico";
             this.guna2Button3.UseTransparentBackground = true;
-            this.guna2Button3.Visible = false;
             // 
             // guna2Button2
             // 
@@ -155,13 +153,12 @@
             this.guna2Button2.HoverState.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.guna2Button2.Image = global::Help4U.Properties.Resources.close;
             this.guna2Button2.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button2.Location = new System.Drawing.Point(1, 595);
+            this.guna2Button2.Location = new System.Drawing.Point(3, 595);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.Size = new System.Drawing.Size(228, 61);
             this.guna2Button2.TabIndex = 76;
             this.guna2Button2.Text = "Remover Conta";
             this.guna2Button2.UseTransparentBackground = true;
-            this.guna2Button2.Visible = false;
             // 
             // label1
             // 
@@ -194,14 +191,14 @@
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold);
             this.guna2Button1.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.guna2Button1.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(129)))), ((int)(((byte)(137)))));
-            this.guna2Button1.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button1.Image")));
             this.guna2Button1.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.guna2Button1.Location = new System.Drawing.Point(10, 729);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(199, 31);
             this.guna2Button1.TabIndex = 28;
-            this.guna2Button1.Text = "AJUDA";
+            this.guna2Button1.Text = "Logout";
             this.guna2Button1.UseTransparentBackground = true;
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // guna2Button9
             // 
@@ -318,6 +315,7 @@
             this.guna2Button16.TabIndex = 19;
             this.guna2Button16.Text = "Inicio";
             this.guna2Button16.UseTransparentBackground = true;
+            this.guna2Button16.Click += new System.EventHandler(this.guna2Button16_Click);
             // 
             // guna2Button17
             // 

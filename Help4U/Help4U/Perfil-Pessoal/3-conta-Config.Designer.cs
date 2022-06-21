@@ -62,6 +62,7 @@
             this.guna2CircleButton3.Size = new System.Drawing.Size(37, 33);
             this.guna2CircleButton3.TabIndex = 49;
             this.guna2CircleButton3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2CircleButton3.Click += new System.EventHandler(this.guna2CircleButton3_Click);
             // 
             // guna2Button5
             // 
@@ -124,7 +125,7 @@
             this.guna2Button4.HoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(100)))), ((int)(((byte)(110)))));
             this.guna2Button4.HoverState.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.guna2Button4.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button4.Location = new System.Drawing.Point(378, 566);
+            this.guna2Button4.Location = new System.Drawing.Point(378, 545);
             this.guna2Button4.Name = "guna2Button4";
             this.guna2Button4.Size = new System.Drawing.Size(159, 61);
             this.guna2Button4.TabIndex = 62;
@@ -135,7 +136,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(29, 607);
+            this.label8.Location = new System.Drawing.Point(29, 586);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(305, 20);
             this.label8.TabIndex = 61;
@@ -145,7 +146,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(28, 519);
+            this.label7.Location = new System.Drawing.Point(28, 545);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(182, 29);
             this.label7.TabIndex = 60;
@@ -241,6 +242,7 @@
             this.Name = "Conta_Config";
             this.Text = "Conta_Config";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.Conta_Config_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

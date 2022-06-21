@@ -17,7 +17,17 @@ namespace Help4U
         {
             InitializeComponent();
         }
-        
-        
+
+        private void guna2CircleButton3_Click(object sender, EventArgs e)
+        {
+            perfil perfil = new perfil();
+            perfil.Show();
+            this.Close();
+        }
+
+        private void Conta_Config_Load(object sender, EventArgs e)
+        {
+           
+        }
     }
 }

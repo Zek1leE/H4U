@@ -38,7 +38,6 @@ namespace Help4U
             this.Visible = false;
         }
 
-      
         private void guna2PictureBox2_Click_1(object sender, EventArgs e)
         {
             //Top Ranking
@@ -59,6 +58,19 @@ namespace Help4U
         private void guna2Button9_Click(object sender, EventArgs e)
         {
             loadform(new maisTrabalho());
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            login.Visible = true;
+            this.Close();
+        }
+
+        private void guna2Button16_Click(object sender, EventArgs e)
+        {
+            Principal principal = new Principal();
+            principal.Show();
         }
     }
 }
