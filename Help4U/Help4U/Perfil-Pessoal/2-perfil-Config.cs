@@ -117,10 +117,12 @@ namespace Help4U
         }
 
         private void guna2CircleButton1_Click(object sender, EventArgs e)
-        {
-            perfil perfil = new perfil();
-            perfil.Show();
-            this.Close();
+        {  
+            
+          
+            definicoes_perfilPessoal f1 = new definicoes_perfilPessoal();
+            f1.Close();
+             this.Close();
         }
     }
 }

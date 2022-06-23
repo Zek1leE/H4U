@@ -71,6 +71,8 @@ namespace Help4U
         {
             Principal principal = new Principal();
             principal.Show();
+
+            this.Close();
         }
     }
 }

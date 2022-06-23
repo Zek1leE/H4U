@@ -18,34 +18,6 @@ namespace Help4U
             InitializeComponent();
         }
 
-        public void loadform(object Form)
-        {
-            if (this.info.Controls.Count > 0)
-                this.info.Controls.RemoveAt(0);
-            Form f = Form as Form;
-            f.TopLevel = false;
-            f.Dock = DockStyle.Fill;
-            this.info.Controls.Add(f);
-            this.info.Tag = f;
-            f.Show();
-        }
-
-        private void guna2Button16_Click(object sender, EventArgs e)
-        {
-            loadform(new Perfil_Config());
-        }
-
-        private void guna2Button15_Click(object sender, EventArgs e)
-        {
-            
-            loadform(new Conta_Config());
-        }
-
-        private void guna2Button13_Click(object sender, EventArgs e)
-        {
-            loadform(new perfil_Senha());
-        }
-
         private void guna2Button1_Click(object sender, EventArgs e)
         {
             guna2Button1.Visible = false;
@@ -66,7 +38,9 @@ namespace Help4U
 
         private void guna2Button4_Click(object sender, EventArgs e)
         {
-            panel1.Visible = false;
+            definicoes_perfilPessoal f1 = new definicoes_perfilPessoal();
+            f1.Show();
+            this.Visible = false;
         }
 
         private void guna2Button2_Click(object sender, EventArgs e)
@@ -82,12 +56,8 @@ namespace Help4U
         {
             Principal principal = new Principal();
             principal.Show();
-            this.Visible = false;
+            this.Close();
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
     }
 }

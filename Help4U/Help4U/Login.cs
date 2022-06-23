@@ -49,23 +49,23 @@ namespace Help4U
                 label1.Visible = true;
             }
 
-            string connectionString = "datasource=127.0.0.1;port=3306;username=root;password=;database=H4u;";
-            string query = "Select * from user where Email = '" + guna2TextBox1.Text.Trim() + "' and Password = '" + guna2TextBox2.Text.Trim() + "'";
+            //string connectionString = "datasource=127.0.0.1;port=3306;username=root;password=;database=H4u;";
+            //string query = "Select * from user where Email = '" + guna2TextBox1.Text.Trim() + "' and Password = '" + guna2TextBox2.Text.Trim() + "'";
 
-            MySqlDataAdapter sda = new MySqlDataAdapter(query, connectionString);
-            DataTable dataTable = new DataTable();
-            sda.Fill(dataTable);
+            //MySqlDataAdapter sda = new MySqlDataAdapter(query, connectionString);
+            //DataTable dataTable = new DataTable();
+            //sda.Fill(dataTable);
 
-            if (dataTable.Rows.Count >= 1)
-            {
-                Principal principal = new Principal();
+            //if (dataTable.Rows.Count >= 1)
+            //{
+               Principal principal = new Principal();
                 principal.Show();
                 this.Visible = false;
-            }
-            else
-            {
-                label1.Visible = true;
-            }
+            //}
+            //else
+            //{
+            //    label1.Visible = true;
+            //}
 
         }
 

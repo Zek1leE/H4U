@@ -68,6 +68,12 @@
     <Compile Include="1-Principal\adm_Trabalho.Designer.cs">
       <DependentUpon>adm_Trabalho.cs</DependentUpon>
     </Compile>
+    <Compile Include="Perfil-Pessoal\definicoes_perfilPessoal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Perfil-Pessoal\definicoes_perfilPessoal.Designer.cs">
+      <DependentUpon>definicoes_perfilPessoal.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -180,6 +186,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Perfil-Pessoal\4-perfil-Senha.resx">
       <DependentUpon>4-perfil-Senha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Perfil-Pessoal\definicoes_perfilPessoal.resx">
+      <DependentUpon>definicoes_perfilPessoal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

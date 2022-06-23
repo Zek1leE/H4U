@@ -37,3 +37,4 @@ C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\bin\Debug\K4os.Compression.LZ4
 C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\bin\Debug\K4os.Hash.xxHash.dll
 C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\bin\Debug\MySql.Data.xml
 C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.exe.config
+C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.definicoes_perfilPessoal.resources
