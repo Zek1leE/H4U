@@ -23,7 +23,6 @@ C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.trabalho.reso
 C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.procPerfil.resources
 C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.maisTrabalho.resources
 C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.removerConta.resources
-C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.adm_Trabalho.resources
 C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\obj\Debug\Help4U.outroPerfil.resources
 C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\bin\Debug\MySql.Data.dll
 C:\Users\ezequ\Documents\GitHub\H4U\Help4U\Help4U\bin\Debug\Google.Protobuf.dll

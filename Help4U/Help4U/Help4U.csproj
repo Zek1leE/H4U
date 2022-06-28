@@ -62,12 +62,6 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="1-Principal\adm_Trabalho.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="1-Principal\adm_Trabalho.Designer.cs">
-      <DependentUpon>adm_Trabalho.cs</DependentUpon>
-    </Compile>
     <Compile Include="Perfil-Pessoal\definicoes_perfilPessoal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -165,9 +159,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="4-Proc-Perfil\procPerfil.resx">
       <DependentUpon>procPerfil.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="1-Principal\adm_Trabalho.resx">
-      <DependentUpon>adm_Trabalho.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
